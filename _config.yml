@@ -78,9 +78,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Fernando Mendez"
+  name             : ""
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Bleh."
+  bio              : "TBD"
   location         : "Dominican Republic"
   email            :
   uri              :
@@ -240,8 +240,15 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
-      share: true
+      share: false
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
