@@ -11,12 +11,13 @@ title                    : "Fernando Mendez"
 title_separator          : "-"
 name                     : "Fernando Mendez"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "www.fmendez.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "fmendez/fmendez.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+show_drafts: false
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -55,7 +56,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : _fmendez
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -80,7 +81,7 @@ author:
   name             : "Fernando Mendez"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Bleh."
-  location         : "meh Somewhere"
+  location         : "Dominican Republic"
   email            :
   uri              :
   bitbucket        :
@@ -100,7 +101,7 @@ author:
   stackoverflow    : "1330741/fmendez" #(the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : _fmendez
+  twitter          :
   vine             :
   weibo            :
   xing             :
